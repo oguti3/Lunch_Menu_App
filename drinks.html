@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link href="entree.css" rel="stylesheet" type="text/css" />
+	<script src="items.js">  </script>
+  <script src="script.js">	</script>
+	
+
+</head>
+
+<body>
+  <div class="banner">
+	</div>
+	<center>
+		<h1>Beverages</h1>
+		<!-- <form action="/entrees.html"> 
+  <label for="EntreeSearch">Search:</label>
+  <input type="text" id="SearchEntrees" name="SearchEntrees"> -->
+		<br>
+      <div id= "cartItems" class = "shoppingCart">
+      </div>
+      <br>
+      <input class = "button-32" type="button" id="reset" value="Empty Cart" onclick="resetButton()">
+      <input class = "button-32" type="button" id="deleteLastItem" value="Delete Last Item" onclick="deleteLastItem()">
+      <p id = "totalVal" > </p>
+      <script>
+      window.onload = function() {
+        calcTotal();
+        showItems();
+      }
+      </script>
+  </center>
+  
+  <nav>  
+
+
+    <!--div> <input type="button" id ="axBtn" value =  "Hotdog" onclick = "addToCart('ax');"> </div>
+    <div> <input type="button" id ="afBtn" value =  "Bagel" onclick = "addToCart('af');"> </div-->
+    
+
+  <div class="row">
+    <!-- <div class="column2 left" style="background-color:#bbb;">
+      <script>
+        plusButtons('a');
+      </script>
+  </div> -->
+  <div class="column1 left">
+    <center>
+
+
+              <script>
+                writeItems('b');
+              </script>  
+              <!-- HTML !-->
+    </center>
+  </div>
+  <!-- <div class="column2 right">
+      <script>
+        writePrices('a');
+      </script>
+  </div> -->
+  </nav>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  <center>
+  <div class = "backButton">
+	<input class = "backButtonIMG" type="image" onclick="window.location = 'index.html'" src="/images/backArrow.png">
+  </div>
+  </center>
+  <br>
+</body>
+</html>

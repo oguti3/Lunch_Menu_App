@@ -1,0 +1,138 @@
+h1{
+  font-family: 'Lato', sans-serif;
+}
+
+
+.itemBox{
+  padding-top: 5px;
+  padding-bottom: 15px;
+  width:100%;
+  height:30px;
+  border-bottom:2px solid rgb(107, 150, 87);
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(209, 209, 209);
+}
+
+.priceBox{
+  padding-top: 5px;
+  padding-bottom: 15px;
+  width:100%;
+  height:30px;
+  border-bottom:2px solid rgb(107, 150, 87);
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(223, 223, 223);
+}
+
+.column1 {
+  
+  float: left;
+  width: 100%;
+}
+
+
+
+.imageButton{
+  height: 30px;
+  width: 30px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+height: 300px; 
+width: 'screen.width';
+border-radius: 15px;
+box-shadow: rgba(13, 20, 16, 0.082) 0 -25px 18px -14px,rgba(9, 43, 22, 0.082) 0 1px 2px,rgba(2, 10, 5, 0.082) 0 2px 4px,rgba(11, 14, 12, 0.082) 0 4px 8px,rgba(3, 14, 7, 0.082) 0 8px 16px,rgba(0, 0, 0, 0.082) 0 16px 32px;
+}
+
+nav {
+content: center;
+overflow-y: scroll;
+overflow-x: hidden;  
+}
+
+body{
+  overflow-x: hidden;  
+}
+
+
+
+/* CSS */
+.button-33 {
+  background-color: rgb(107, 150, 87);
+  border-radius: 100px;
+  box-shadow: rgba(33, 139, 74, 0.226) 0 -25px 18px -14px inset,rgba(9, 43, 22, 0.15) 0 1px 2px,rgba(9, 58, 28, 0.15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(3, 14, 7, 0.15) 0 8px 16px,rgba(0, 0, 0, 0.15) 0 16px 32px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 300px;
+  height: 35px;
+}
+
+/* .button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+} */
+
+.shoppingCart{
+  box-shadow: rgba(13, 20, 16, 0.082) 0 -25px 18px -14px,rgba(9, 43, 22, 0.082) 0 1px 2px,rgba(2, 10, 5, 0.082) 0 2px 4px,rgba(11, 14, 12, 0.082) 0 4px 8px,rgba(3, 14, 7, 0.082) 0 8px 16px,rgba(0, 0, 0, 0.082) 0 16px 32px;
+  border-radius: 15px;
+  width: 300px;
+  height: 75px;
+  border:2px solid rgb(0, 0, 0);
+  overflow-y: scroll;
+}
+
+.button-32 {
+  background-color: rgb(107, 150, 87);
+  border-radius: 100px;
+  box-shadow: rgba(33, 139, 74, 0.226) 0 -25px 18px -14px inset,rgba(9, 43, 22, 0.15) 0 1px 2px,rgba(9, 58, 28, 0.15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(3, 14, 7, 0.15) 0 8px 16px,rgba(0, 0, 0, 0.15) 0 16px 32px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.total{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.backButtonIMG{
+  width: 50px;
+  height: 50px;
+}
+
+.banner {
+  background-image: url("/images/blankBackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  padding-bottom: 175px;
+
+}

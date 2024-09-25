@@ -1,0 +1,84 @@
+<!-- The Cafeteria  Items Spreadsheet: https://docs.google.com/spreadsheets/d/1WWuHu5NE_E12fcpJljgtEsKCefAi2oCiLmcb0XgJ-vE/edit?usp=sharing -->
+
+<!-- Write a separate HTML for each category (ex: entrees, snacks, drinks, etc.)-->
+
+<!-- 
+  **Sources For Button Making**
+  -https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image
+  -https://www.geeksforgeeks.org/how-to-change-an-input-button-image-using-css/
+  -https://www.codegrepper.com/code-examples/css/how+to+change+position+of+image+in+html
+  -W3 Schools: How To's
+-->
+
+<!-- To set background to an image:
+<div style="background-image:url('/pix/samples/bg2.png');padding:5px;width:150px;height:200px;border:1px solid black;"></div>
+*Set exact constraints as needed
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head class>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="food" content="price">
+	<title>NNHS Lunch Menu</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<script src="items.js">
+
+	</script>
+<script src="script.js">
+
+	</script>
+	
+
+
+</head>
+
+
+<body >
+	<div class="banner">
+	</div>
+	<center>
+		<h2 class="header1">Welcome to NNHS Lunch Menu App</h2>
+		<h1 class="header2"><strong>Home</strong></h1>
+    </center>
+    <center>
+
+    <table>
+      <div id= cartItems class = "shoppingCart">
+      </div>
+      <br>
+      <input class = "button-33" type="button" id="reset" value="Empty Cart" onclick="resetButton()">
+      <input class = "button-33" type="button" id="deleteLastItem" value="Delete Last Item" onclick="deleteLastItem()">
+      <p id = "totalVal" > </p>
+      <script>
+      window.onload = function() {
+        hitCounter();
+        calcTotal();
+        showItems();
+      }
+      </script>
+      
+      <br>
+      <br>
+      <tr class="row">
+        <td><input type="image" class="image" alt="Entrees"
+       src="/images/entreesIcon.png" onclick = 'window.location = "entrees.html"' ></td>
+        <td><input type="image" class="image" alt="Beverages" src= "/images/drinksIcon.png" onclick= 'window.location ="drinks.html"'></td>
+      </tr>
+      <tr class="row">
+        <td><input type="image" class="image" alt="Sides" src= "/images/sidesIcon.png" onclick= 'window.location ="sides.html"'></td>
+        <td><input type="image" class="image" alt="Snacks"
+       src="/images/snacksIcon.png" onclick = 'window.location = "snacks.html"'></td>
+      </tr>
+      <!-- <tr class="row">
+        <td> <input type="image" class="image" alt="Specials" src= "/images/specialsIcon.png" onclick= 'window.location ="specials.html"'></td>
+        <td><input type="image" class="image" alt="Total" src="/images/totalIcon.png" onclick = 'window.location = "total.html"'></td>
+      </tr> -->
+    </center>
+  </body>
+</html>
